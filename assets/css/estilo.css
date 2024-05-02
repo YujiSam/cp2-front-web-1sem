@@ -41,6 +41,72 @@ header {
     box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
+#quadradoA{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    right: 44rem;
+    top: 43rem;
+    background: #FF5F5F;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-size: 40px;
+    padding: 13px;
+    color: #F3F3F3;
+}
+#imagem1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30%;
+    top: 15%;
+}
+#quadradoB{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    right: 23rem;
+    top: 43rem;
+    background: #C34BFB;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-size: 40px;
+    padding: 13px;
+    color: #F3F3F3;
+}
+#imagem2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 13%;
+    top: 25%;
+} 
+#quadradoC{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    right: 2rem;
+    top: 43rem;
+    background: #6083FF;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    font-size: 40px;
+    padding: 13px;
+    color: #F3F3F3;
+}
+#imagem3 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 17%;
+    top: 22%;
+} 
 ul li a {
     text-decoration: none;
     color: #000000;
@@ -143,13 +209,22 @@ button {
     box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.25);
 }
 
-#serviços {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+#Contato {
+    background-color: #4A4949;
+    color: #1BDD22;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.25);
+    margin-left: 90px;
 }
 
-#serviçoimg {
+#Contatoimg {
     text-align: center;
 }
 footer {
