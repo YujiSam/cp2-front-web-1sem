@@ -5,12 +5,25 @@
 } 
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(177, 131, 75)
 }
-
 header {
-    background-color: #f8f9fa;
     padding: 20px;
-    text-align: center;
+    margin: 30px;
+    text-align:left;
+    font-size: 60px;
+}
+#quadradobranco{
+    background-color: white;
+    width: 98%; 
+    height: 95%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    z-index: -1;
 }
 ul li a {
     text-decoration: none;
@@ -31,7 +44,7 @@ ul li a {
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
-    text-decoration: none
+    text-decoration: none;
 }
 #Menu-Off.active{
     right:0;
@@ -45,8 +58,11 @@ nav{
     height: 50px;
     width: 50px;
     margin-left: auto;
+    margin-right: 8px;
     position: relative;
     cursor: pointer;
+    margin-top: -120px;
+    margin-right: 30px;
 }
 #Menu span{
     height: 5px;
@@ -77,8 +93,10 @@ nav{
     transform: translate(-50%, 50%) rotate(120deg);
 }
 #principal {
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
+    margin-left: 80px;
+    font-size: 40px;
 }
 
 #principal h2 {
@@ -87,21 +105,25 @@ nav{
 }
 
 #principal p {
-    font-size: 1.2em;
-    color: #6c757d;
+    font-size: 32px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: rebeccapurple;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 30px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.25);
 }
 
 #serviços {
@@ -112,4 +134,9 @@ button {
 
 #serviçoimg {
     text-align: center;
+}
+footer {
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: 50px;
 }
