@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+#Menu-Off {
+    background-color: rgb(34, 37, 49);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+    text-decoration: none
+}
+#Menu-Off.active{
+    right:0;
+}
+nav{
+    padding: 1rem;
+    display: flex;
+    background-color: rgb(34, 37, 49);
+}
+#Menu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+    cursor: pointer;
+}
+#Menu span{
+    height: 5px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+#Menu span:nth-child(1) {
+    top: 25%;
+}
+#Menu span:nth-child(3) {
+    top: 75%;
+}
+#Menu.active span:nth-child(1) {
+    top:55%;
+    transform: translate(-50%, -35%) rotate(-120deg);
+}
+#Menu.active span:nth-child(2) {
+    opacity: 0;
+}
+#Menu.active span:nth-child(3) {
+    top:50%;
+    transform: translate(-50%, 50%) rotate(120deg);
+}
+#principal {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#principal h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#principal p {
+    font-size: 1.2em;
+    color: #6c757d;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#serviços {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#serviçoimg {
+    text-align: center;
+}
