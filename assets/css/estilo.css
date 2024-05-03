@@ -58,10 +58,10 @@ header {
 }
 #imagem1 {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 30%;
-    top: 15%;
+    width: 170px;
+    height: 170px;
+    left: 20%;
+    top: 25%;
 }
 #quadradoB{
     box-sizing: border-box;
