@@ -36,7 +36,7 @@ header {
     position: absolute;
     width: 65rem;
     height: 20rem;
-    left: 35%;
+    left: 88vh;
     top: 40rem;
     background: #F3F3F3;
     border-radius: 30px;
@@ -224,7 +224,7 @@ button {
     width: 55px;
     height: 55px;
     left: 5.3rem;
-    top: 73.5%;
+    top: 70.2vh;
 }
 footer {
     margin-top: 7%;
