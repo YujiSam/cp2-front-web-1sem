@@ -4,19 +4,20 @@
     box-sizing: border-box;
 } 
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(177, 131, 75)
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(177, 131, 75);
 }
 header {
     padding: 20px;
     margin: 30px;
+    margin-bottom: 0px;
     text-align:left;
-    font-size: 60px;
+    font-size: 55px;
 }
 #quadradobranco{
     background-color: white;
     width: 97%; 
-    height: 90%; 
+    height: 90vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,7 +39,6 @@ header {
     left: 53rem;
     top: 40rem;
     background: #F3F3F3;
-    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 #quadradoA{
@@ -104,8 +104,8 @@ header {
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 17%;
-    top: 22%;
+    left: 25%;
+    top: 25%;
 } 
 ul li a {
     text-decoration: none;
@@ -178,19 +178,11 @@ nav{
     text-align: left;
     padding: 50px 0;
     margin-left: 80px;
-    font-size: 40px;
+    font-size: 35px;
 }
-
-#principal h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
 #principal p {
-    font-size: 32px;
+    font-size: 20px;
     color: black;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 button {
@@ -203,10 +195,12 @@ button {
     display: inline-block;
     font-size: 40px;
     margin: 4px 2px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: -10px;
     cursor: pointer;
     border-radius: 40px;
-    box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #Contato {
@@ -217,18 +211,24 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    margin: 4px 4px;
     cursor: pointer;
     border-radius: 40px;
-    box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.25);
-    margin-left: 90px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 70px;
+    margin-top: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#Contatoimg {
-    text-align: center;
+#zapicon {
+    margin-right: 10px;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 5.3rem;
+    top: 37.7rem;
 }
 footer {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-right: auto;
     margin-left: 50px;
 }
