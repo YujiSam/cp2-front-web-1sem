@@ -231,4 +231,58 @@ footer {
     margin-right: auto;
     margin-left: 50px;
 }
+/*responsivdade mobile*/
+
+@media (max-width:500px){
+    *{
+        margin-left:-2vh;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+    body{
+        background-color: white;
+    }
+    header{
+        font-size: 30px;
+        margin-left: 5vh;
+    }
+    p {
+        margin-left: 1vh;
+    }
+    span{
+        margin-left: 7vh;
+    }
+    #Amigo{
+        margin-left: 2vh;
+    }
+    #quadradobranco{
+        background-color: white;
+        width: 9vh; 
+        height: 9vh;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 15px; 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+        z-index: -1;
+    } 
+    #cachorro{
+        position: absolute;
+        max-width: 1vh;
+        max-width: 1vh;
+        right: 40px;
+        top: 15%;
+        margin-bottom: 10%;
+    }
+    #quadrado{
+        opacity: 0;
+    }
+    #quadradoA,
+    #quadradoB,
+    #quadradoC{
+        opacity: 0;
+    }
+    #footer{
+
+    }
+} 
 
