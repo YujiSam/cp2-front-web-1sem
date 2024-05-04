@@ -1,82 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
+<!-- Define o documento como HTML e especifica o idioma como português do Brasil -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
-    <!--Chamando CSS Externo-->
-    <link rel="stylesheet" href="./assets/css/estilo1.css">
+    <meta charset="UTF-8"> 
+    <!-- Define a codificação de caracteres como UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Configura o comportamento responsivo para dispositivos móveis -->
+
+    <title>Produtos</title> 
+    <!-- Define o título da página -->
+
+    <!-- Inclui um arquivo CSS externo para estilização -->
+    <link rel="stylesheet" href="./assets/css/estilo1.css"> 
+
+    <!-- Define um ícone para a aba do navegador -->
+    <link rel="shortcut icon" href="./assets/img/icone.png" /> 
 </head>
+
 <body>
-    <header>
-        <h1>Produtos</h1>
-        <div id="quadradobranco2"></div>
-        <div id="Menu-Off">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="pets.html">Pets</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
+    <header> 
+    <!-- Seção do cabeçalho -->
+
+        <h1>Produtos</h1> 
+        <!-- Título da página -->
+
+        <div id="quadradobranco2"></div> 
+        <!-- Elemento de estilização ou espaçamento -->
+
+        <div id="Menu-Off"> 
+        <!-- Menu para navegação pelo site -->
+            <ul> 
+            <!-- Lista de itens de navegação -->
+                <li><a href="index.html">Home</a></li> 
+                <!-- Link para a página inicial -->
+                <li><a href="sobre.html">Sobre</a></li> 
+                <!-- Link para a página 'Sobre' -->
+                <li><a href="pets.html">Pets</a></li> 
+                <!-- Link para a página 'Pets' -->
+                <li><a href="produtos.html">Produtos</a></li> 
+                <!-- Link para a página atual -->
             </ul>
         </div>
-            <nav>
-                <div id="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-    <script src="./assets/jv/script.js"></script>
+
+        <nav> 
+        <!-- Seção de navegação, talvez para dispositivos móveis -->
+            <div id="Menu"> 
+            <!-- Ícone do menu, com barras típicas de menu 'hamburger' -->
+                <span></span> 
+                <!-- Barra do menu -->
+                <span></span> 
+                <!-- Barra do menu -->
+                <span></span> 
+                <!-- Barra do menu -->
+            </div>
+        </nav>
+
+        <!-- Importa um arquivo JavaScript para funcionalidades adicionais -->
+        <script src="./assets/jv/script.js"></script> 
     </header>
-    <div class="container">
-        <!-- Repita este bloco para cada produto -->
+
+    <div class="container"> 
+    <!-- Contêiner para agrupar os produtos -->
+
+        <!-- Exemplo de um card para um produto -->
         <!--Card Brinquedo-->
-        <div class="card">
-          <img src="./assets/img/brinquedo.png" alt="Brinquedo Pet">
-          <div class="info">
-            <h3>Brinquedo Pet</h3>
-            <p>R$14.50</p>
+        <div class="card"> 
+        <!-- Div para um produto específico -->
+          <img src="./assets/img/brinquedo.png" alt="Brinquedo Pet"> 
+          <!-- Imagem do produto com descrição alternativa -->
+          <div class="info"> 
+          <!-- Seção para informações do produto -->
+            <h3>Brinquedo Pet</h3> 
+            <!-- Nome do produto -->
+            <p>R$14.50</p> 
+            <!-- Preço do produto -->
           </div>
         </div>
+
         <!--Card Tigela-->
-        <div class="card">
-          <img src="./assets/img/tigela.png" alt="Tigela Pet">
-          <div class="info">
-            <h3>Tigela de Pet</h3>
-            <p>R$26.90</p>
+        <div class="card"> 
+        <!-- Div para um segundo produto -->
+          <img src="./assets/img/tigela.png" alt="Tigela Pet"> 
+          <!-- Imagem do produto com descrição alternativa -->
+          <div class="info"> 
+          <!-- Seção para informações do produto -->
+            <h3>Tigela de Pet</h3> 
+            <!-- Nome do produto -->
+            <p>R$26.90</p> 
+            <!-- Preço do produto -->
           </div>
         </div>
-        <!--Card Racao-->
-        <div class="card">
-            <img src="./assets/img/Racao.png" alt="Racao">
-            <div class="info">
-              <h3>Ração</h3>
-              <p>R$99.90</p>
+
+        <!--Card Ração-->
+        <div class="card"> 
+        <!-- Div para um terceiro produto -->
+            <img src="./assets/img/Racao.png" alt="Racao"> 
+            <!-- Imagem do produto com descrição alternativa -->
+            <div class="info"> 
+            <!-- Seção para informações do produto -->
+              <h3>Ração</h3> 
+              <!-- Nome do produto -->
+              <p>R$99.90</p> 
+              <!-- Preço do produto -->
             </div>
           </div>
-          <!--Card Shampoo-->
-          <div class="card">
-            <img src="./assets/img/toalha.png" alt="Toalha">
-            <div class="info">
-              <h3>Toalha Descartável</h3>
-              <p>R$26.90</p>
+
+          <!--Card Toalha-->
+          <div class="card"> 
+          <!-- Div para um quarto produto -->
+            <img src="./assets/img/toalha.png" alt="Toalha"> 
+            <!-- Imagem do produto com descrição alternativa -->
+            <div class="info"> 
+            <!-- Seção para informações do produto -->
+              <h3>Toalha Descartável</h3> 
+              <!-- Nome do produto -->
+              <p>R$26.90</p> 
+              <!-- Preço do produto -->
             </div>
           </div>
+
           <!--Card Whiska-->
-          <div class="card">
-            <img src="./assets/img/wiska.png" alt="Whiska">
-            <div class="info">
-              <h3>Whiska</h3>
-              <p>R$19.90</p>
+          <div class="card"> 
+          <!-- Div para um quinto produto -->
+            <img src="./assets/img/wiska.png" alt="Whiska"> 
+            <!-- Imagem do produto com descrição alternativa -->
+            <div class="info"> 
+            <!-- Seção para informações do produto -->
+              <h3>Whiska</h3> 
+              <!-- Nome do produto -->
+              <p>R$19.90</p> 
+              <!-- Preço do produto -->
             </div>
           </div>
-          <!--Card Casa-->
-          <div class="card">
-            <img src="./assets/img/casa.png" alt="Casa">
-            <div class="info">
-              <h3>Casinha Pra Cachorro</h3>
-              <p>R$137.90</p>
+
+          <!--Card Casinha-->
+          <div class="card"> 
+          <!-- Div para um sexto produto -->
+            <img src="./assets/img/casa.png" alt="Casa"> 
+            <!-- Imagem do produto com descrição alternativa -->
+            <div class="info"> 
+            <!-- Seção para informações do produto -->
+              <h3>Casinha Pra Cachorro</h3> 
+              <!-- Nome do produto -->
+              <p>R$137.90</p> 
+              <!-- Preço do produto -->
             </div>
-    </div>
+          </div>
+    </div> 
+    <!-- Fecha a seção de produtos -->
+
 </body>
-</html>
+</html> 

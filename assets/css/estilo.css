@@ -1,297 +1,349 @@
-*{
-    margin:0;
+* {
+    /* Zera margens, preenchimentos e define o box-sizing para incluir bordas no cálculo de dimensões */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
 body {
+    /* Define a fonte padrão do corpo do documento e a cor de fundo */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(177, 131, 75);
+    background-color: rgb(177, 131, 75); /* Marrom claro */
 }
+
 header {
+    /* Estilização do cabeçalho, com espaçamento, alinhamento e tamanho da fonte */
     padding: 20px;
-    margin: 30px;
-    margin-bottom: -30px;
-    text-align:left;
-    font-size: 55px;
+    margin: 30px; /* Espaçamento externo */
+    margin-bottom: -30px; /* Remove margem inferior */
+    text-align: left; /* Alinha à esquerda */
+    font-size: 55px; /* Grande tamanho da fonte */
 }
-#quadradobranco{
+
+#quadradobranco {
+    /* Define um bloco branco centralizado na página, com sombra e bordas arredondadas */
     background-color: white;
-    width: 97%; 
-    height: 90vh;
+    width: 97%; /* Largura quase total */
+    height: 90vh; /* 90% da altura da viewport */
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-    z-index: -1;
+    left: 50%; /* Centraliza na tela */
+    transform: translate(-50%, -50%); /* Garante centralização */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: -1; /* Camada de fundo */
 }
-#cachorro{
+
+#cachorro {
+    /* Define a posição e a margem para um elemento, talvez uma imagem */
     position: absolute;
-    right: 40px;
-    top: 15%;
-    margin-bottom: 10%;
+    right: 40px; /* Posiciona no lado direito */
+    top: 15%; /* Posiciona no topo */
+    margin-bottom: 10%; /* Espaçamento inferior */
 }
-#mobile{
-    margin-top: -29vh;
-    opacity: 0;
+
+#mobile {
+    /* Elemento para conteúdo móvel, invisível por padrão */
+    margin-top: -29vh; /* Deslocamento vertical negativo */
+    opacity: 0; /* Invisível */
 }
-#quadrado{
+
+#quadrado {
+    /* Define um bloco retangular com bordas arredondadas */
     position: absolute;
-    width: 65rem;
-    height: 20rem;
-    left: 88vh;
-    top: 40rem;
-    background: #F3F3F3;
-    border-radius: 30px;
+    width: 65rem; /* Largura grande */
+    height: 20rem; /* Altura média */
+    left: 88vh; /* Posiciona à esquerda */
+    top: 40rem; /* Posiciona no topo */
+    background: #F3F3F3; /* Cor cinza claro */
+    border-radius: 30px; /* Bordas arredondadas */
 }
-#quadradoA{
-    box-sizing: border-box;
+
+#quadradoA {
+    /* Define um bloco interno com cor vermelha */
+    box-sizing: border-box; /* Inclui bordas no cálculo */
     position: absolute;
-    width: 15rem;
-    height: 15rem;
-    right: 44rem;
-    top: 43rem;
-    background: #FF5F5F;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
-    border-radius: 30px;
-    font-size: 40px;
-    padding: 13px;
-    color: #F3F3F3;
+    width: 15rem; /* Largura menor */
+    height: 15rem; /* Altura menor */
+    right: 44rem; /* Posiciona à direita */
+    top: 43rem; /* Posiciona no topo */
+    background: #FF5F5F; /* Cor vermelha */
+    border: 1px solid #000000; /* Borda preta */
+    border-radius: 30px; /* Bordas arredondadas */
+    font-size: 40px; /* Define tamanho da fonte */
+    padding: 13px; /* Define preenchimento interno */
+    color: #F3F3F3; /* Texto em cinza claro */
 }
+
 #imagem1 {
+    /* Define a posição e dimensões de uma imagem */
     position: absolute;
     width: 170px;
     height: 170px;
-    left: 20%;
-    top: 25%;
+    left: 20%; /* Posiciona à esquerda */
+    top: 25%; /* Posiciona no topo */
 }
-#quadradoB{
-    box-sizing: border-box;
+
+#quadradoB {
+    /* Define um bloco interno com cor roxa */
+    box-sizing: border-box; /* Inclui bordas no cálculo */
     position: absolute;
     width: 15rem;
     height: 15rem;
-    right: 23rem;
-    top: 43rem;
-    background: #C34BFB;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
-    border-radius: 30px;
+    right: 23rem; /* Posiciona à direita */
+    top: 43rem; /* Posiciona no topo */
+    background: #C34BFB; /* Cor roxa */
+    border: 1px solid #000000; /* Borda preta */
+    border-radius: 30px; /* Bordas arredondadas */
     font-size: 40px;
     padding: 13px;
-    color: #F3F3F3;
+    color: #F3F3F3; /* Texto em cinza claro */
 }
+
 #imagem2 {
+    /* Define a posição e dimensões de uma segunda imagem */
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 13%;
-    top: 25%;
-} 
-#quadradoC{
+    left: 13%; /* Posiciona à esquerda */
+    top: 25%; /* Posiciona no topo */
+}
+
+#quadradoC {
+    /* Define um bloco interno com cor azul */
     box-sizing: border-box;
     position: absolute;
     width: 15rem;
     height: 15rem;
-    right: 2rem;
+    right: 2rem; /* Posiciona à direita */
     top: 43rem;
-    background: #6083FF;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
+    background: #6083FF; /* Cor azul */
     border-radius: 30px;
+    border: 1px solid #000000; /* Borda preta */
     font-size: 40px;
     padding: 13px;
-    color: #F3F3F3;
+    color: #F3F3F3; /* Texto cinza claro */
 }
+
 #imagem3 {
+    /* Define a posição e dimensões de uma terceira imagem */
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 25%;
-    top: 25%;
-} 
-ul li a {
-    text-decoration: none;
-    color: #000000;
+    left: 25%; /* Posiciona à esquerda */
+    top: 25%; /* Posiciona no topo */
 }
+
+ul li a {
+    /* Estilização para links em listas */
+    text-decoration: none; /* Sem sublinhado */
+    color: #000000; /* Texto preto */
+}
+
 #Menu-Off {
-    background-color: rgb(177, 131, 75);
-    height: 100vh;
-    width: 100%;
-    max-width: 450px;
-    position: fixed;
+    /* Define um menu lateral que fica oculto por padrão */
+    background-color: rgb(177, 131, 75); /* Cor marrom claro */
+    height: 100vh; /* Altura total */
+    width: 100%; /* Largura total */
+    max-width: 450px; /* Largura máxima */
+    position: fixed; /* Fixa a posição */
     top: 0;
-    right: -450px;
+    right: -450px; /* Mantém fora da tela */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
     text-align: center;
-    font-size: 3rem;
-    transition: .3s ease;
+    font-size: 3rem; /* Tamanho grande da fonte */
+    transition: .3s ease; /* Transição suave */
     text-decoration: none;
 }
-#Menu-Off.active{
-    right:0;
+
+#Menu-Off.active {
+    /* Quando o menu está ativo, ele desliza para a tela */
+    right: 0; /* Alinha ao lado direito da tela */
 }
-nav{
-    padding: 1rem;
-    display: flex;
+
+nav {
+    /* Estilização para a barra de navegação */
+    padding: 1rem; /* Preenchimento interno */
+    display: flex; /* Exibe itens em linha flexível */
 }
-#Menu{
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: 8px;
+
+#Menu {
+    /* Estilização para o botão de menu */
+    height: 50px; /* Altura do botão */
+    width: 50px; /* Largura do botão */
+    margin-left: auto; /* Alinha à direita */
+    margin-right: 8px; /* Pequeno espaçamento à direita */
     position: relative;
-    cursor: pointer;
-    margin-top: -120px;
+    cursor: pointer; /* Indica que é clicável */
+    margin-top: -120px; /* Grande deslocamento para cima */
     margin-right: 30px;
 }
-#Menu span{
+
+#Menu span {
+    /* Estilização para as barras no botão de menu */
     height: 5px;
-    width: 100%;
-    background-color: #000000;
-    border-radius: 25px;
+    width: 100%; /* Largura total */
+    background-color: #000000; /* Preto */
+    border-radius: 25px; /* Bordas arredondadas */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: .3s ease;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Garante centralização */
+    transition: .3s ease; /* Transição suave */
 }
+
 #Menu span:nth-child(1) {
-    top: 25%;
+    /* Ajusta a posição do primeiro span */
+    top: 25%; /* Posiciona mais para cima */
 }
+
 #Menu span:nth-child(3) {
-    top: 75%;
+    /* Ajusta a posição do terceiro span */
+    top: 75%; /* Posiciona mais para baixo */
 }
+
 #Menu.active span:nth-child(1) {
-    top:55%;
-    transform: translate(-50%, -35%) rotate(-120deg);
+    /* Transforma o primeiro span ao ativar o menu */
+    top: 55%; /* Move para o meio */
+    transform: translate(-50%, -35%) rotate(-120deg); /* Rotaciona */
 }
+
 #Menu.active span:nth-child(2) {
-    opacity: 0;
+    /* Oculta o segundo span quando o menu está ativo */
+    opacity: 0; /* Invisível */
 }
+
 #Menu.active span:nth-child(3) {
-    top:50%;
-    transform: translate(-50%, 50%) rotate(120deg);
+    /* Transforma o terceiro span ao ativar o menu */
+    top: 50%; /* Centraliza */
+    transform: translate(-50%, 50%) rotate(120deg); /* Rotaciona */
 }
+
 #principal {
-    text-align: left;
-    padding: 50px 0;
+    /* Estilização para um bloco de conteúdo principal */
+    text-align: left; /* Alinha à esquerda */
+    padding: 50px 0; /* Preenchimento vertical */
     margin-left: 80px;
-    font-size: 35px;
+    font-size: 35px; /* Tamanho da fonte */
 }
+
 #principal p {
-    font-size: 20px;
-    color: black;
+    /* Estilização para parágrafos dentro do bloco principal */
+    font-size: 20px; /* Tamanho do texto */
+    color: black; /* Cor do texto preto */
 }
 
 button {
-    background-color: rebeccapurple;
-    color: white;
-    border: none;
-    padding: 30px 40px;
-    text-align: center;
+    /* Estilização para botões */
+    background-color: rebeccapurple; /* Cor roxa intensa */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 30px 40px; /* Preenchimento interno */
+    text-align: center; /* Alinha ao centro */
     text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    margin: 4px 2px;
+    display: inline-block; /* Exibe como bloco */
+    font-size: 40px; /* Tamanho do texto */
+    margin: 4px 2px; /* Espaçamento externo */
     margin-top: 20px;
-    margin-left: -10px;
-    cursor: pointer;
-    border-radius: 40px;
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -10px; /* Pequeno deslocamento à esquerda */
+    cursor: pointer; /* Indica que é clicável */
+    border-radius: 40px; /* Bordas arredondadas */
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25); /* Sombra suave */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fonte padrão */
 }
 
 #Contato {
-    background-color: #4A4949;
-    color: #1BDD22;
-    padding: 20px 70px;
-    text-align: center;
+    /* Estilização para um bloco de contato */
+    background-color: #4A4949; /* Cor cinza escuro */
+    color: #1BDD22; /* Cor verde claro */
+    padding: 20px 70px; /* Preenchimento interno */
+    text-align: center; /* Alinha ao centro */
     text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    cursor: pointer;
-    border-radius: 40px;
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+    display: inline-block; /* Exibe como bloco */
+    font-size: 30px; /* Tamanho do texto */
+    cursor: pointer; /* Indica que é clicável */
+    border-radius: 40px; /* Bordas arredondadas */
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25); /* Sombra suave */
     margin-left: 70px;
     margin-top: -20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #zapicon {
-    margin-right: 10px;
+    /* Estilização para um ícone, talvez um ícone de WhatsApp */
+    margin-right: 10px; /* Pequeno espaçamento à direita */
     position: absolute;
-    width: 55px;
-    height: 55px;
+    width: 55px; /* Define largura */
+    height: 55px; /* Define altura */
     left: 5.3rem;
-    top: 70.2vh;
+    top: 70.2vh; /* Define posição vertical */
 }
-footer {
-    margin-top: 7%;
-    margin-right: auto;
-    margin-left: 50px;
-}
-/*responsividade mobile*/
 
-@media (max-width:500px){
-    *{
-        margin-left:-2vh;
-        padding: 0;
-        box-sizing: border-box;
-    } 
-    body{
-        background-color: white;
+footer {
+    /* Estilização para o rodapé */
+    margin-top: 7%; /* Define margem superior */
+    margin-right: auto; /* Ajusta para a direita */
+    margin-left: 50px; /* Pequena margem à esquerda */
+}
+
+@media (max-width:500px) {
+    /* Estilizações responsivas para telas menores */
+    * {
+        margin-left: -2vh; /* Pequeno deslocamento à esquerda */
+        padding: 0; /* Zera preenchimento */
+        box-sizing: border-box; /* Inclui bordas no cálculo */
     }
-    header{
-        font-size: 40px;
-        margin-left: 5vh;
-        margin-top: -2vh;
+    body {
+        background-color: white; /* Altera a cor de fundo para branco */
+    }
+    header {
+        font-size: 40px; /* Reduz o tamanho da fonte */
+        margin-left: 5vh; /* Pequena margem à esquerda */
+        margin-top: -2vh; /* Deslocamento vertical negativo */
     }
     p {
-        margin-left: 1vh;
+        margin-left: 1vh; /* Pequena margem à esquerda */
     }
-    span{
-        margin-top: 2vh;
-        margin-left: 7.5vh;
+    span {
+        margin-top: 2vh; /* Pequeno espaçamento vertical */
+        margin-left: 7.5vh; /* Margem à esquerda */
     }
-    #Amigo{
-        margin-left: 1vh;
+    #Amigo {
+        margin-left: 1vh; /* Pequena margem à esquerda */
     }
-    #quadradobranco{
-        opacity: 0;
-    } 
-    #cachorro{
-        opacity: 0;
+    #quadradobranco {
+        opacity: 0; /* Invisível em dispositivos móveis */
     }
-    #mobile{
-        opacity: 100;
-        margin-top: 72vh;
-        position: absolute
+    #cachorro {
+        opacity: 0; /* Invisível em dispositivos móveis */
     }
-    #quadrado{
-        opacity: 0;
+    #mobile {
+        opacity: 100; /* Torna visível em dispositivos móveis */
+        margin-top: 72vh; /* Deslocamento vertical */
+        position: absolute; /* Define posição absoluta */
     }
-    #quadradoA,
-    #quadradoB,
-    #quadradoC{
-        opacity: 0;
+    #quadrado {
+        opacity: 0; /* Invisível em dispositivos móveis */
     }
-    button{
-        margin-top: 3vh;
+    #quadradoA, #quadradoB, #quadradoC {
+        opacity: 0; /* Invisível em dispositivos móveis */
     }
-    #zapicon{
-        margin-left: -5vh;
-        margin-top: -8vh;
-        z-index: 1;
+    button {
+        margin-top: 3vh; /* Ajusta espaçamento vertical */
     }
-    footer{
-        margin-top: 28vh;
-        padding: 2vh;
+    #zapicon {
+        margin-left: -5vh; /* Ajusta margem à esquerda */
+        margin-top: -8vh; /* Ajusta espaçamento vertical */
+        z-index: 1; /* Camada superior */
     }
-    #Menu-Off{
-        z-index: 2;
-}   }  
+    footer {
+        margin-top: 28vh; /* Grande espaçamento vertical */
+        padding: 2vh; /* Define preenchimento interno */
+    }
+    #Menu-Off {
+        z-index: 2; /* Define camada superior */
+    }
+}

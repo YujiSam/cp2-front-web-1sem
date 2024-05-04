@@ -1,72 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
+<!-- Define o tipo de documento como HTML e especifica o idioma como português do Brasil -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetShop</title>
-    <!--Chamando CSS Externo-->
+    <meta charset="UTF-8"> 
+    <!-- Define o conjunto de caracteres como UTF-8, permitindo suporte a uma ampla gama de caracteres -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Configura o comportamento responsivo para dispositivos móveis -->
+
+    <title>PetShop</title> 
+    <!-- Define o título da página que aparece na aba do navegador -->
+
+    <!-- Inclui CSS externo para estilização -->
     <link rel="stylesheet" href="./assets/css/estilo.css">
+
+    <!-- Define um ícone para a aba do navegador (favicon) -->
+    <link rel="shortcut icon" href="./assets/img/icone.png" />
 </head>
+
 <body>
-    <header>
-        <div id="mobile"><img src="assets/img/mobiledog.png" alt="cachorromobile"/></div>
+    <header> 
+    <!-- Seção do cabeçalho da página -->
+
+        <div id="mobile">
+            <img src="assets/img/mobiledog.png" alt="cachorromobile"/> 
+            <!-- Imagem para exibição em dispositivos móveis -->
+        </div>
+
         <div id="quadradobranco"></div>
-        <div id="cachorro"><img src="assets/img/cachorro.png" alt="cachorro"/></div>
-        <div id="quadrado"></div>
-        <!--Quadrado Vermelho (Sobre)-->
+        <!-- Div vazia, possivelmente para estilização ou espaçamento -->
+
+        <div id="cachorro">
+            <img src="assets/img/cachorro.png" alt="cachorro"/> 
+            <!-- Imagem de um cachorro -->
+        </div>
+
+        <div id="quadrado"></div> 
+        <!-- Outra div para propósitos de estilização ou estrutura -->
+
+        <!-- Quadrado Vermelho com link para página 'Sobre' -->
         <div id="quadradoA"
-         onclick="window.location.href='sobre.html'">
-            <img id="imagem1" src="assets/img/sobre.png" alt="sobre">
-            <p>Sobre</p>
+         onclick="window.location.href='sobre.html'"> 
+            <img id="imagem1" src="assets/img/sobre.png" alt="sobre"> 
+            <!-- Imagem representativa -->
+            <p>Sobre</p> 
+            <!-- Texto do link -->
         </div>
-        <!--Quadrado Roxo (Produtos)-->
+
+        <!-- Quadrado Roxo com link para 'Produtos' -->
         <div id="quadradoB"
-         onclick="window.location.href='produtos.html'">
-            <img id="imagem2" src="assets/img/produtos.png" alt="Produtos">
-            <p>Produtos</p>
+         onclick="window.location.href='produtos.html'"> 
+            <img id="imagem2" src="assets/img/produtos.png" alt="Produtos"> 
+            <!-- Imagem representativa -->
+            <p>Produtos</p> 
+            <!-- Texto do link -->
         </div>
-        <!--Quadrado Azul (Pet Shop)-->
+
+        <!-- Quadrado Azul com link para 'Pet Shop' -->
         <div id="quadradoC"
-         onclick="window.location.href='pets.html'">
-            <img id="imagem3" src="assets/img/pets.png" alt="PetShop">
-            <p>Pets</p>
+         onclick="window.location.href='pets.html'"> 
+            <img id="imagem3" src="assets/img/pets.png" alt="PetShop"> 
+            <!-- Imagem representativa -->
+            <p>Pets</p> 
+            <!-- Texto do link -->
         </div>
-        <h1>Pet Shop</h1>
-    <div id="Menu-Off">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="pets.html">Pets</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-        </ul>
-    </div>
-        <nav>
-            <div id="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
+
+        <h1>Pet Shop</h1> 
+        <!-- Título principal do cabeçalho -->
+
+        <div id="Menu-Off">
+        <!-- Menu com links para várias páginas -->
+            <ul> 
+            <!-- Lista de links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </div>
+
+        <nav> 
+        <!-- Seção de navegação, provavelmente para dispositivos móveis -->
+            <div id="Menu"> 
+            <!-- Representação visual do menu, como um menu 'hamburger' -->
+                <span></span> 
+                <!-- Barras do menu -->
+                <span></span> 
+                <!-- Barras do menu -->
+                <span></span> 
+                <!-- Barras do menu -->
             </div>
         </nav>
     </header>
-    <main>
-        <section id="principal">
-            <h2> Encontre seu</h2>
-            <h2> Melhor <span id="Amigo" style="color: rgb(177, 131, 75)">Amigo</span></h2>
-            <p><b>Parceiros para uma Vida Mais Feliz!</b></p>
-            <button>Nossos Serviços</button>
+
+    <main> 
+    <!-- Seção principal do conteúdo da página -->
+        <section id="principal"> 
+        <!-- Seção principal com texto e botão -->
+            <h2> Encontre seu</h2> 
+            <!-- Parte do título -->
+            <h2> Melhor <span id="Amigo" style="color: rgb(177, 131, 75)">Amigo</span></h2> 
+            <!-- Parte do título com destaque -->
+            <p><b>Parceiros para uma Vida Mais Feliz!</b></p> 
+            <!-- Parágrafo com texto -->
+            <button>Nossos Serviços</button> 
+            <!-- Botão com texto -->
         </section>
-        <div id="Contato">
-            <img src="assets/img/zap.PNG" alt="WhatsApp" id="zapicon">
-            Contato
+
+        <div id="Contato"> 
+        <!-- Seção para contato -->
+            <img src="assets/img/zap.PNG" alt="WhatsApp" id="zapicon"> 
+            <!-- Ícone do WhatsApp -->
+            Contato 
+            <!-- Texto do contato -->
         </div>
     </main>
 
 
 <!-- COPYRIGHT -->
-<footer>
-    <p><b>&copy; 2024 Pet Shop. Todos os direitos reservados.</b></p>
+<footer> 
+<!-- Seção de rodapé para informações de copyright -->
+    <p><b>&copy; 2024 Pet Shop. Todos os direitos reservados.</b></p> 
+    <!-- Texto de copyright -->
 </footer>    
-<!--Chamando Javascript Externo-->
+
+<!-- Inclusão de script JavaScript externo -->
 <script src="./assets/jv/script.js"></script>
+
 </body>
 </html>
