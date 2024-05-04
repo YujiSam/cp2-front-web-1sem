@@ -13,11 +13,11 @@ body {
 
 header {
     /* Estilização do cabeçalho, com espaçamento, alinhamento e tamanho da fonte */
-    padding: 20px;
-    margin: 30px; /* Espaçamento externo */
-    margin-bottom: -30px; /* Remove margem inferior */
+    padding: 2vh;
+    margin: 3vh; /* Espaçamento externo */
+    margin-bottom: -3vh; /* Remove margem inferior */
     text-align: left; /* Alinha à esquerda */
-    font-size: 55px; /* Grande tamanho da fonte */
+    font-size: 3.4rem; /* Grande tamanho da fonte */
 }
 
 #quadradobranco {
@@ -29,15 +29,15 @@ header {
     top: 50%;
     left: 50%; /* Centraliza na tela */
     transform: translate(-50%, -50%); /* Garante centralização */
-    border-radius: 15px; /* Bordas arredondadas */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 1.5vh; /* Bordas arredondadas */
+    box-shadow: 0vh 0vh 1vh rgba(0, 0, 0, 0.1); /* Sombra suave */
     z-index: -1; /* Camada de fundo */
 }
 
 #cachorro {
     /* Define a posição e a margem para um elemento, talvez uma imagem */
     position: absolute;
-    right: 40px; /* Posiciona no lado direito */
+    right: 4vh; /* Posiciona no lado direito */
     top: 15%; /* Posiciona no topo */
     margin-bottom: 10%; /* Espaçamento inferior */
 }
@@ -51,35 +51,35 @@ header {
 #quadrado {
     /* Define um bloco retangular com bordas arredondadas */
     position: absolute;
-    width: 65rem; /* Largura grande */
-    height: 20rem; /* Altura média */
+    width: 110vh; /* Largura grande */
+    height: 34vh; /* Altura média */
     left: 88vh; /* Posiciona à esquerda */
-    top: 40rem; /* Posiciona no topo */
+    top: 67vh; /* Posiciona no topo */
     background: #F3F3F3; /* Cor cinza claro */
-    border-radius: 30px; /* Bordas arredondadas */
+    border-radius: 3vh; /* Bordas arredondadas */
 }
 
 #quadradoA {
     /* Define um bloco interno com cor vermelha */
     box-sizing: border-box; /* Inclui bordas no cálculo */
     position: absolute;
-    width: 15rem; /* Largura menor */
-    height: 15rem; /* Altura menor */
-    right: 44rem; /* Posiciona à direita */
-    top: 43rem; /* Posiciona no topo */
+    width: 26.6vh; /* Largura menor */
+    height: 26.6vh; /* Altura menor */
+    right: 73vh; /* Posiciona à direita */
+    top: 71.4vh; /* Posiciona no topo */
     background: #FF5F5F; /* Cor vermelha */
-    border: 1px solid #000000; /* Borda preta */
-    border-radius: 30px; /* Bordas arredondadas */
-    font-size: 40px; /* Define tamanho da fonte */
-    padding: 13px; /* Define preenchimento interno */
+    border: 0.1vh solid #000000; /* Borda preta */
+    border-radius: 3vh; /* Bordas arredondadas */
+    font-size: 2.5rem; /* Define tamanho da fonte */
+    padding: 1.5vh; /* Define preenchimento interno */
     color: #F3F3F3; /* Texto em cinza claro */
 }
 
 #imagem1 {
     /* Define a posição e dimensões de uma imagem */
     position: absolute;
-    width: 170px;
-    height: 170px;
+    width: 17vh;
+    height: 17vhpx;
     left: 20%; /* Posiciona à esquerda */
     top: 25%; /* Posiciona no topo */
 }
@@ -88,23 +88,23 @@ header {
     /* Define um bloco interno com cor roxa */
     box-sizing: border-box; /* Inclui bordas no cálculo */
     position: absolute;
-    width: 15rem;
-    height: 15rem;
-    right: 23rem; /* Posiciona à direita */
-    top: 43rem; /* Posiciona no topo */
+    width: 26.6vh;
+    height: 26.6vh;
+    right: 38vh; /* Posiciona à direita */
+    top: 71.4vh; /* Posiciona no topo */
     background: #C34BFB; /* Cor roxa */
-    border: 1px solid #000000; /* Borda preta */
-    border-radius: 30px; /* Bordas arredondadas */
-    font-size: 40px;
-    padding: 13px;
+    border: 0.1vh solid #000000; /* Borda preta */
+    border-radius: 3vh; /* Bordas arredondadas */
+    font-size: 2.5rem;
+    padding: 1.5vh;
     color: #F3F3F3; /* Texto em cinza claro */
 }
 
 #imagem2 {
     /* Define a posição e dimensões de uma segunda imagem */
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 20vh;
+    height: 20vh;
     left: 13%; /* Posiciona à esquerda */
     top: 25%; /* Posiciona no topo */
 }
@@ -113,23 +113,23 @@ header {
     /* Define um bloco interno com cor azul */
     box-sizing: border-box;
     position: absolute;
-    width: 15rem;
-    height: 15rem;
-    right: 2rem; /* Posiciona à direita */
-    top: 43rem;
+    width: 26.6vh;
+    height: 26.6vh;
+    right: 3vh; /* Posiciona à direita */
+    top: 71.4vh;
     background: #6083FF; /* Cor azul */
-    border-radius: 30px;
-    border: 1px solid #000000; /* Borda preta */
-    font-size: 40px;
-    padding: 13px;
+    border-radius: 3vh;
+    border: 0.1vh solid #000000; /* Borda preta */
+    font-size: 2.5rem;
+    padding: 1.5vh;
     color: #F3F3F3; /* Texto cinza claro */
 }
 
 #imagem3 {
     /* Define a posição e dimensões de uma terceira imagem */
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 18vh;
+    height: 18vh;
     left: 25%; /* Posiciona à esquerda */
     top: 25%; /* Posiciona no topo */
 }
@@ -145,10 +145,10 @@ ul li a {
     background-color: rgb(177, 131, 75); /* Cor marrom claro */
     height: 100vh; /* Altura total */
     width: 100%; /* Largura total */
-    max-width: 450px; /* Largura máxima */
+    max-width: 45vh; /* Largura máxima */
     position: fixed; /* Fixa a posição */
     top: 0;
-    right: -450px; /* Mantém fora da tela */
+    right: -45vh; /* Mantém fora da tela */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
