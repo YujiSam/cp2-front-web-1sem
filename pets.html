@@ -21,7 +21,7 @@
 
 <body>
     <header> 
-    <!-- Seção do cabeçalho -->
+        <!-- Seção do cabeçalho -->
 
         <h1>Pets</h1> 
         <!-- Título da página ou seção -->
@@ -30,9 +30,9 @@
         <!-- Elemento de estilização ou espaçamento -->
 
         <div id="Menu-Off"> 
-        <!-- Menu de navegação -->
+            <!-- Menu de navegação -->
             <ul> 
-            <!-- Lista de itens -->
+                <!-- Lista de itens -->
                 <li><a href="index.html">Home</a></li> 
                 <!-- Link para a página inicial -->
                 <li><a href="sobre.html">Sobre</a></li> 
@@ -45,9 +45,9 @@
         </div>
 
         <nav> 
-        <!-- Seção para navegação -->
+            <!-- Seção para navegação -->
             <div id="Menu"> 
-            <!-- Menu 'hamburger' para dispositivos móveis -->
+                <!-- Menu 'hamburger' para dispositivos móveis -->
                 <span></span> 
                 <!-- Barra do menu -->
                 <span></span> 
@@ -57,14 +57,14 @@
             </div>
         </nav>
 
-    <!-- Liga um arquivo JavaScript externo -->
-    <script src="./assets/jv/script.js"></script> 
+        <!-- Liga um arquivo JavaScript externo -->
+        <script src="./assets/jv/script.js"></script> 
     </header>
 
     <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat lacus, pellentesque sit amet feugiat id, interdum nec eros. Sed sagittis finibus pulvinar. 
         Donec sodales egestas ullamcorper. Proin finibus justo nunc, vehicula ultrices tellus luctus non. Quisque laoreet mattis accumsan. Proin viverra eros lobortis 
         nibh eleifend laoreet. Maecenas at lacinia nulla. Quisque suscipit, mi ac imperdiet pellentesque, lacus mauris tempus mi, a egestas tellus odio vitae justo. 
-        Maecenas ac quam malesuada, semper libero sed, suscipit sapien.        Praesent malesuada augue ac tellus viverra imperdiet. Vivamus ut eleifend magna. 
+        Maecenas ac quam malesuada, semper libero sed, suscipit sapien. Praesent malesuada augue ac tellus viverra imperdiet. Vivamus ut eleifend magna. 
         Vivamus urna tellus, bibendum eu metus id, ultricies molestie lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
         Pellentesque in mi a ante tempor convallis non a turpis. Morbi porttitor efficitur imperdiet. Donec et velit imperdiet, lacinia nibh eget, euismod urna. 
         Pellentesque varius consequat ipsum, vel suscipit odio convallis sit amet. Donec justo nulla, laoreet et tellus eu, porttitor malesuada massa.</b></p> 
@@ -77,33 +77,67 @@
     <!-- Provavelmente um espaço para informações de atendimento -->
 
     <p id="texto">Horários de atendimento: 
-    <!-- Texto que exibe horários de atendimento -->
-        Segunda: das 09:00 até 18:00 
-        Terça: das 09:00 até 18:00 
-        Quarta: das 09:00 até 18:00 
-        Quinta: das 09:00 até 18:00 
-        Sexta: das 09:00 até 18:00 
-        Sábado: das 09:00 até 15:00 
-        Domingo: Fechado 
+        <!-- Texto que exibe horários de atendimento -->
+        Segunda: das 09:00 até 18:00 
+        Terça: das 09:00 até 18:00 
+        Quarta: das 09:00 até 18:00 
+        Quinta: das 09:00 até 18:00 
+        Sexta: das 09:00 até 18:00 
+        Sábado: das 09:00 até 15:00 
+        Domingo: Fechado 
     </p>
 
-    <!-- Mapa incorporado do Google Maps -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29253.52654791266!2d-46.69035877240249!3d-23.57954534235957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7dbf9ff57%3A0x4ca8eb5c4f7ecca9!2sFIAP%20-%20Paulista!5e0!3m2!1spt-PT!2sbr!4v1714735636656!5m2!1spt-PT!2sbr" 
     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe> 
     <!-- Define um mapa do Google Maps com configurações de segurança -->
 
-    <div id="Avaliacao1"> 
+    <!-- Container do slideshow -->
+    <div class="slideshow-container">
+
+        <!-- Imagens de largura total com número e legenda -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/img/slide1.png" style="width:100%">
+            <div class="text">Leandro •ᴗ• Idade: 1 Ano</div>
+        </div>
+  
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/img/slide2.png" style="width:100%">
+            <div class="text">Aldo ʕ•́ᴥ•̀ʔ Idade: 2 Anos</div>
+        </div>
+  
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/img/slide3.png" style="width:100%">
+            <div class="text">Bilu Bilu ♡ Idade: 4 Meses</div>
+        </div>
+  
+        <!-- Botões para avançar e retroceder -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  
+    <!-- Os pontos/círculos -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
     <!-- Div para a primeira avaliação -->
+    <div id="Avaliacao1"> 
         <b id="Nome1">Roberto Spreafico Neto</b> 
         <!-- Nome do avaliador -->
         <span id ="Star1">★★★★★</span> 
         <!-- Avaliação com estrelas -->
-        <p id="Ava1"><b>Muito Top, comprei meu pug ai, amei !</b></p> 
+        <p id="Ava1"><b>Muito Top, comprei meu pug ai, amei!</b></p> 
         <!-- Comentário da avaliação -->
     </div>
 
-    <div id="Avaliacao2"> 
     <!-- Div para a segunda avaliação -->
+    <div id="Avaliacao2"> 
         <b id="Nome2">Matheus Polpo Bispo</b> 
         <!-- Nome do avaliador -->
         <span id ="Star2">★★★★★</span> 
@@ -112,8 +146,8 @@
         <!-- Comentário da avaliação -->
     </div>
 
-    <div id="Avaliacao3"> 
     <!-- Div para a terceira avaliação -->
+    <div id="Avaliacao3"> 
         <b id="Nome3">Paulo Roberto Braga</b> 
         <!-- Nome do avaliador -->
         <span id ="Star3">★★★★★</span> 
